@@ -1,3 +1,11 @@
+// @File:     gitexec.go
+// @Created:  2020-03-31 00:57:45
+// @Modified: 2020-03-31 01:02:47
+// @Author:   aescaler
+// @Commiter: aescaler
+// @Mail:     aescaler@redhat.com
+// @Copy:     Copyright © 2020 aescaler <aescaler@redhat.com>
+
 package gitcomm
 
 import (
@@ -10,7 +18,6 @@ func GitExec(addAll, show bool, msg string) {
 	if addAll {
 		gitColorCmd("add", "-A")
 	}
-	gitColorCmd("add", "-u")
 	gitColorCmd("commit", "-m", msg)
 	if show {
 		gitColorCmd("show", "-s")

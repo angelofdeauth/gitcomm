@@ -6,8 +6,8 @@ import (
 	"log"
 	"os"
 
+	"github.com/angelofdeauth/gitcomm"
 	cli "github.com/jawher/mow.cli"
-	"github.com/karantin2020/gitcomm"
 )
 
 const version = "gitcomm 0.4.0"
