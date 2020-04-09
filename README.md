@@ -14,8 +14,8 @@ Usage:
 Download and install it:
 
 ```sh
-$ go get -u -d github.com/karantin2020/gitcomm/cmd
-$ go install -o gitcomm github.com/karantin2020/gitcomm/cmd
+$ go get -u -d github.com/angelofdeauth/gitcomm/cmd
+$ go build -o ${GOPATH}/bin/gitcomm github.com/angelofdeauth/gitcomm/cmd
 ```
 
 Or install precompiled release binary.  
@@ -25,7 +25,7 @@ Usage: gitcomm [-v] [-Ast] | [-u]
 
 Automate git commit messaging
 
-Source https://github.com/karantin2020/gitcomm
+Source https://github.com/angelofdeauth/gitcomm
                   
 Options:          
   -V, --version   Show the version and exit
